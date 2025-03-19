@@ -30,7 +30,7 @@ public class DatabaseCreateTable
 						
 	        //String createTableQuery  = "CREATE table HumanResources.EmployeeDataSelenium(" +"EmpId INT Primary Key," +"FNAME VARCHAR(50)," +"LNAME VARCHAR(50)"+")";
 	        //String createTableQuery  = "CREATE table HumanResources.EmployeeDataSeleniumTEST('EmpId' int Primary Key,'FNAME' VARCHAR(50),'LNAME' VARCHAR(50))";
-	        String createTableQuery = "CREATE TABLE HumanResources.EmployeeDataSeleniumTEST (EmpID int Primary Key,firstname varchar(30), lastname varchar(30), tel integer, email varchar(40), arrive_stamp timestamp)";
+	        String createTableQuery = "CREATE TABLE HumanResources.EmployeeDataSeleniumTESTER (EmpID int Primary Key,firstname varchar(30), lastname varchar(30), tel integer, email varchar(40), arrive_stamp timestamp)";
 	        Statement statement = conn.createStatement();
 	        statement.executeUpdate(createTableQuery);
 	        	       	        
