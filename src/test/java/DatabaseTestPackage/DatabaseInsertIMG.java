@@ -18,11 +18,11 @@ public class DatabaseInsertIMG
 		
 		if(mycon==null)
 		{
-			System.out.println("Connection Failed !");
+			System.out.println("Connection Failed!");
 		}
 		else 
 		{
-			System.out.println("Connection Success");
+			System.out.println("Connection Success.");
 			
 			String InsertQuery = "Insert into HumanResources.ProfileImage(Eid,myPicName,ImagePath) values (?,?,?)";
 			PreparedStatement statement = mycon.prepareStatement(InsertQuery);

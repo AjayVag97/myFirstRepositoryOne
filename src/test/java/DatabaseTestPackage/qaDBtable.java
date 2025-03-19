@@ -37,7 +37,7 @@ public class qaDBtable
 			                
 			            System.out.println("Business Entity ID: " + empBId + ", National ID Number: " + empNID + ", Birth Date: "+ empBirth + ", Job Title: " + empPosition + ", Vacation Hours: " + empVacHr);
 		         } 
-		         System.out.println("TABLE CONNECTED DATA PRINTED");
+		         System.out.println("TABLE CONNECTED DATA PRINTED!");
 	            	
 	        }
 	        catch (SQLException e) 

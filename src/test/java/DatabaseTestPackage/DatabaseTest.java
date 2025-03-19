@@ -34,7 +34,7 @@ public class DatabaseTest
     	catch(Exception e)
     	{
     		e.printStackTrace();
-    		System.out.println("Database connected issue !");
+    		System.out.println("Database connected issue!");
     	}
     }
 

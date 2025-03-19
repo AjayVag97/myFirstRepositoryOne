@@ -28,7 +28,7 @@ public class DatabaseFetchTable
 				
 		if (conn == null) 
 		{
-			System.out.println("Connection FAILED ");
+			System.out.println("Connection FAILED.");
 		} 
 		else
 		{

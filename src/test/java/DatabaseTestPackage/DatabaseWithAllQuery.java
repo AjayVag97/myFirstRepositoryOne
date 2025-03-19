@@ -19,7 +19,7 @@ public class DatabaseWithAllQuery
 	 
 	  if (DbConn==null)
 	  {
-		  System.out.println("Database Connection issue ");
+		  System.out.println("Database Connection issue! ");
 	  }
 	  else
 	  {

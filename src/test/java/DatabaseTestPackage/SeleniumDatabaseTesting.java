@@ -41,7 +41,7 @@ public class SeleniumDatabaseTesting
 				// Statement object to send the SQL statement to the Database
 				stmt = con.createStatement();
 				
-				System.out.println("Database Connection Successful");    	 
+				System.out.println("Database Connection Successful.");    	 
 		}
 		catch(Exception e)
 		{

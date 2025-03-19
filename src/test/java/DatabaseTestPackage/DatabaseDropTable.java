@@ -23,7 +23,7 @@ public class DatabaseDropTable
           Statement statement = conn2.createStatement();
           statement.executeUpdate(dropTableQuery);
 
-          System.out.println("Table 'EmployeeDataSelenium' dropped successfully.");
+          System.out.println("Table 'EmployeeDataSelenium' dropped successfully!");
 	 }
 }
 

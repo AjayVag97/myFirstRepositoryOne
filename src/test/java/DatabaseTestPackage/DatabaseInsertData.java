@@ -27,7 +27,7 @@ public class DatabaseInsertData
 	  } 
 	  else
 	  {
-		  System.out.println("Database Connection Successful");
+		  System.out.println("Database Connection Successful.!");
 			
 		  String InsertQuery = "INSERT into HumanResources.EmployeeDataSelenium(EmpId,FNAME,LNAME,GENDER,MOBILE,BIRTHDATE,CITY,COUNTRY) values(?,?,?,?,?,?,?,?)";
 		
