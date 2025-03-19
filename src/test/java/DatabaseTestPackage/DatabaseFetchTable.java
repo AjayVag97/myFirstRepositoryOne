@@ -3,6 +3,7 @@ package DatabaseTestPackage;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.apache.log4j.Logger;
 
 import com.microsoft.sqlserver.jdbc.SQLServerException;
 
@@ -55,8 +56,9 @@ public class DatabaseFetchTable
 }
 	/*
 	@Test
-	public void retrieveEmployeeFromDatabase() throws ClassNotFoundException {
-		// this.conn=conn;
+	public void retrieveEmployeeFromDatabase() throws ClassNotFoundException 
+	{
+		//this.conn=conn;
 		try 
 		{
 			 if(this.connection == null || this.connection.isClosed()) 
