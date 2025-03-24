@@ -34,7 +34,7 @@ public class DatabaseCreateTable
 	        Statement statement = conn.createStatement();
 	        statement.executeUpdate(createTableQuery);
 	        	       	        
-	        System.out.println(" TABLE CREATED SUCCESSFULLY!!");
+	        System.out.println(" TABLE CREATED SUCCESSFULLY!!!");
 	    }
 	  }
 }
