@@ -2,7 +2,6 @@ package OOPS;
 
 public class LowestAgeFind 
 {
-
 	public static void main(String[] args)
 	{
 		// An array storing different ages
