@@ -5,7 +5,7 @@ public class LowestAgeFind
 	public static void main(String[] args)
 	{
 		// An array storing different ages
-		int ages[] = {20, 22, 18, 35, 48, 26, 87, 70, 90};
+		int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
 
 		// Create a 'lowest age' variable and assign the first array element of ages to it
 		int lowestAge = ages[0];
